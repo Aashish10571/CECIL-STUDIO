@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="./public/logo.png" />
+  <title>Cesil Studios</title>
+
+  <!-- FontAwsome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Poppins and DM Sans Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS StyleSheet -->
+  <link rel="stylesheet" href="./styles/variable.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/responsive.css">
+</head>
+
+<body>
+  <!-- Header Section -->
+  <header>
+    <!-- Navigation Bar -->
+    <nav>
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#home">
+          <img src="./assets/logo/logo.png" alt="logo">
+          Cecil Studio
+        </a>
+      </div>
+
+      <!-- Nav Bar Links -->
+       <ul class="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#contact">Contact</a></li>
+       </ul>
+
+      <!-- Sign In & Sign Up -->
+      <div class="login-links">
+        <a href="#" class="sign-in">Log In</a>
+        <button class="sign-up-btn">Sign Up</button>
+      </div>
+
+      <!-- Menu Button -->
+      <div class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+
+    <!-- Drop Down Menu -->
+    <div class="dropdown-menu">
+      <div class="close-btn">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+
+      <ul class="drop-dwn-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#approach">Approach</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="drop-dwn-login-links">
+        <a href="#" class="sign-in">Log In</a>
+        <button class="sign-up-btn">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Content Section -->
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="content-box">
+        <!-- Home Contents -->
+        <div class="home-content">
+            <!-- Image Section -->
+            <img src="./assets/illustrations/home-illustration.svg" alt="home-image">
+
+            <!-- Text section -->
+            <div class="hero-texts">
+              <h1>Small Team, Big Ideas, Limitless Impact</h1>
+              <p>
+                We’re driving global growth with innovative software solutions that leave a lasting impact.
+              </p>
+              <form class="get-started-form">
+                <input type="text"
+                class="email-input" placeholder="example@gmail.com">
+                <button type="submit">Get Started</button>
+              </form>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="service" class="service-section">
+      <div class="content-box">
+        <!-- Heading -->
+        <div class="service-header">
+          <h1>Our Service</h1>
+          <p>Expert solutions, tailored to your needs.</p>
+        </div>
+
+        <div class="service-section-content-box">
+          <!-- Android and IOS Development -->
+          <div class="service-content">
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <h1>App Dev</h1>
+            <p>
+              We create high-performance Android and iOS apps with seamless UX and cross-platform functionality.
+            </p>
+          </div>
+
+          <!-- System Designing -->
+          <div class="service-content">
+            <i class="fa-solid fa-server"></i>
+            <h1>Systems Design</h1>
+            <p>
+              We design scalable, efficient systems that streamline operations, integrate seamlessly, and support future growth.
+            </p>
+          </div>
+
+          <!-- Web Development -->
+          <div class="service-content">
+            <i class="fa-solid fa-code"></i>
+            <h1>Website Dev</h1>
+            <p>
+              We build responsive websites with intuitive design and robust back-end systems.
+            </p>
+          </div>
+
+          <!-- Product Designing -->
+          <div class="service-content">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h1>Product Design</h1>
+            <p>
+              We create innovative, user-centric products that blend function and aesthetics.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach Section -->
+    <section id="approach" class="approach-section">
+      <div class="content-box">
+        <!-- Header section -->
+        <div class="approach-header">
+          <h1>Our Approach</h1>
+          <p>Small Team, Big Ideas, Limitless Impact</p>
+        </div>
+
+        <!-- Business Section -->
+        <section class="business-section">
+          <img src="./assets/illustrations/business.svg" alt="business-image">
+
+          <div class="approach-text-box">
+            <h1>Business</h1>
+            <h2>Innovative, Agile, Client-Focused</h2>
+            <p>
+              We embrace creativity, adaptability, and collaboration to deliver impactful solutions tailored for sustainable growth.
+            </p>
+          </div>
+        </section>
+
+        <!-- Technology Section  -->
+        <section class="technology-section">
+          <img src="./assets/illustrations/technology.svg" alt="technology-image">
+
+          <div class="approach-text-box">
+            <h1>Technology</h1>
+            <h2>Cutting-Edge, Scalable, Secure</h2>
+            <p>
+              Our solutions harness the latest technology to ensure efficiency, seamless user experiences, and robust security.
+            </p>
+          </div>
+        </section>
+
+        <!-- Environment Section -->
+        <section class="environment-section">
+          <img src="./assets/illustrations/environment.svg" alt="environment-image">
+
+          <div class="approach-text-box">
+            <h1>Environment</h1>
+            <h2>Sustainable, Responsible, Impactful</h2>
+            <p>
+              We integrate eco-friendly practices and ethical choices, using technology to drive positive change.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer id="contact">
+    <div class="content-box">
+      <div class="footer-contents">
+        <p>&copy; 2025 Aashish Moktan. All Rights Reserved.</p>
+
+        <!-- Social Links -->
+        <div class="social-links">
+          <div class="circular-box">
+            <a href="https://www.instagram.com/cecilstudios_/">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+
+          <div class="circular-box">
+            <a href="https://www.tiktok.com/@cecilstudios">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+
+          <div class="circular-box">
+            <a href="https://www.linkedin.com/company/cecil-studios/">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+          <div class="circular-box">
+            <a href="furnituremandu@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript File -->
+  <script src="./scripts//index.js"></script>
+</body>
+</html>

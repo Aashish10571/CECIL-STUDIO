@@ -1,0 +1,24 @@
+/* Custom CSS Variables */
+:root {
+  /* Colors */
+  --color-white: #F1F0EA;
+  --color-gray: #343A40;
+  --color-black: #000000;
+  --color-warning: #F4845F;
+  --color-invalid: #F25C54;
+
+  /* Font Family */
+  --font-primary: 'Poppins', sans-serif, Arial, Helvetica;
+  --font-secondary: 'DM Sans', sans-serif, Arial, Helvetica;
+
+  /* Font Size */
+  --font-xs: 1rem;
+  --font-sm: 1.125rem;
+  --font-md: 1.25rem;
+  --font-lg: 2rem;
+  --font-xl: 3rem;
+
+
+  /* Components Max Widths */
+  --cmpnt-mx-w: 1200px;
+}

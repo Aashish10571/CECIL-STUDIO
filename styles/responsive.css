@@ -1,0 +1,167 @@
+/* Responsive Design */
+@media(min-width: 768px)  {
+  /* Header Responsive */
+  header {
+    font-size: var(--font-xs);
+  }
+
+  nav .links {
+    display: flex;
+  }
+
+  .dropdown-menu {
+    font-size: var(--font-xs);
+  }
+
+  .dropdown-menu .drop-dwn-links {
+    display: none;
+  }
+
+  .dropdown-menu .drop-dwn-login-links {
+    display: flex;
+  }
+
+  /* Home Section Responsive */
+  .home-section .home-content img,
+  .home-section .home-content .hero-texts {
+    width: 70%;
+  }
+
+  /* Service Section Responsive */
+  .service-section .service-content {
+    width: 70%;
+    padding: 4rem 2rem;
+  }
+
+  .service-section .service-content p {
+    font-size: var(--font-md);
+  }
+
+  /* Approach Section Responsive */
+  .business-section,
+  .technology-section,
+  .environment-section{
+    margin-bottom: 8rem;
+  }
+
+  .approach-section img,
+  .approach-section .approach-text-box {
+    width: 70%;
+  }
+
+  /* Footer and Contact Responsive */
+  .footer-contents {
+    flex-direction: row;
+    font-size: var(--font-sm);
+  }
+}
+
+@media(min-width: 1024px) {
+  /* Header Responsive */
+  nav .login-links {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  nav .menu-btn {
+    display: none;
+  }
+
+  /* Home Section Responsive */
+  .home-section {
+    height: 100dvh;
+    padding-bottom: 0;
+  }
+
+  .home-section  .home-content {
+    flex-direction: row-reverse;
+  }
+
+  .home-section .home-content .hero-texts {
+    width: 50%;
+  }
+
+  .home-section .home-content .hero-texts h1 {
+    font-size: var(--font-xl);
+  }
+
+  .home-section .home-content .hero-texts p {
+    font-size: var(--font-md);
+  }
+
+  .home-section .home-content .hero-texts .get-started-form {
+    flex-direction: row;
+  }
+
+  .home-section .home-content .hero-texts .get-started-form button {
+    font-size: var(--font-xs);
+  }
+
+  .home-section .home-content img {
+    width: 50%;
+  }
+
+  /* Service Section Responsive */
+  .service-section .service-header h1 {
+    font-size: var(--font-xl);
+  }
+
+  .service-section .service-section-content-box {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-section .service-content {
+    width: 95%;
+  }
+
+  .service-section .service-content i {
+    font-size: 5rem;
+  }
+
+  .service-section .service-content h1 {
+    font-weight: 800;
+  }
+
+  /* Approach Section Responsive */
+  .approach-section .approach-header h1 {
+    font-size: var(--font-xl);
+  }
+
+  .business-section,
+  .environment-section {
+    flex-direction: row;
+  }
+
+  .technology-section {
+    flex-direction: row-reverse;
+  }
+
+  .approach-section .approach-text-box {
+    width: 40%;
+    text-align: left;
+    gap: 1rem;
+    padding-left: 2rem;
+    border-left: 4px solid var(--color-gray);
+  }
+
+  .approach-section .technology-section .approach-text-box {
+    padding-left: 0;
+    border-left: none;
+    border-right: 4px solid var(--color-gray);
+  }
+
+  .approach-section .approach-text-box h1 {
+    font-size: var(--font-xl);
+  }
+
+  .approach-section .approach-text-box h2 {
+    font-size: var(--font-lg);
+  }
+
+  .approach-section img {
+   width: 60%;
+   aspect-ratio: 4/3;
+  }
+}
